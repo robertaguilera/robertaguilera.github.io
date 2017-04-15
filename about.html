@@ -56,15 +56,19 @@ members:
     url: http://dribbble.com
 
 skills_left:
-- title: Web Design
-  percent: 98
-- title: Web Development
-  percent: 92
+- title: Adobe Photoshop
+  percent: 45
+- title: Adobe Illustrator
+  percent: 70
+- title: Adobe InDesign
+  percent: 35
 skills_right:
-- title: Branding
-  percent: 94
-- title: Print
-  percent: 87
+- title: Solidworks
+  percent: 30
+- title: AutoDesk Fusion 360
+  percent: 20
+- title: Keyshot
+  percent: 25
 
 testimonials_left:
 - author: David Lame - CEO of Wollen store
@@ -194,7 +198,7 @@ I hope you enjoy my work. Thank you paying a visit.</p>
         <ul class='bars'>
           {% for skill in page.skills_left %}
             <li>
-              <h4>{{skill.title}}<strong>{{skill.percent}}%</strong></h4>
+              <h4>{{skill.title}} <strong>{{skill.percent}}%</strong></h4>
               <p class="highlighted" data-percent="{{skill.percent}}"></p>
             </li>
           {% endfor %}
@@ -207,7 +211,7 @@ I hope you enjoy my work. Thank you paying a visit.</p>
           <ul class='bars'>
             {% for skill in page.skills_right %}
               <li>
-                <h4>{{skill.title}}<strong>{{skill.percent}}%</strong></h4>
+                <h4>{{skill.title}} <strong>{{skill.percent}}%</strong></h4>
                 <p class="highlighted" data-percent="{{skill.percent}}"></p>
               </li>
             {% endfor %}
