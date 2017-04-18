@@ -62,10 +62,10 @@
 .full.white {
   background: #fff; }
 
-.full.flower {
-  background-image: url(../images/@stock/flower.png);
+.full.texture {
+  background-image: url(../images/texture.jpg);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center 55%;
   background-attachment: fixed; }
 
 .full.sketch {
@@ -74,6 +74,13 @@
   background-repeat: no-repeat;
   background-position: center 55%;
   background-attachment: fixed; }
+
+  .full.graphic {
+    min-height: 60%;
+    background-image: url(../images/graphic.jpg);
+    background-repeat: no-repeat;
+    background-position: center 55%;
+    background-attachment: fixed; }
 
 .full.lamp {
   min-height: 60%;
