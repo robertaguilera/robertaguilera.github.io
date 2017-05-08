@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title: new way, new move
 author: hornyou
@@ -23,4 +23,4 @@ Friends can help each other. A true friend is someone who lets you have total fr
 > "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!""
 
 
-Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti. -->
+Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.

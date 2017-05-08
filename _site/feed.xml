@@ -6,43 +6,35 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Apr 2017 22:41:02 -0400</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 22:41:02 -0400</lastBuildDate>
+    <pubDate>Mon, 08 May 2017 16:15:56 -0400</pubDate>
+    <lastBuildDate>Mon, 08 May 2017 16:15:56 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>New Way New Move</title>
-        <description>&lt;!-- ---
-layout: post
-title: new way, new move
-author: hornyou
-date: 2016-04-06 06:47:03 +0800
-categories: travel
-images:
-- images/@stock/post-6.jpg
-excerpt:
-  Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
----
+        <title>new way, new move</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
 
-Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
 
-* A new command I give you: Love one another. As I have loved you, so you must love one another.
-* Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
 
-Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That's what real love amounts to - letting a person be what he really is.
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
 
-
-&gt; &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!&quot;&quot;
-
-
-Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti. --&gt;
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 06 Apr 2016 00:00:00 -0400</pubDate>
-        <link>/2016/04/06/new-way-new-move.html</link>
-        <guid isPermaLink="true">/2016/04/06/new-way-new-move.html</guid>
+        <pubDate>Tue, 05 Apr 2016 18:47:03 -0400</pubDate>
+        <link>/travel/2016/04/05/new-way-new-move.html</link>
+        <guid isPermaLink="true">/travel/2016/04/05/new-way-new-move.html</guid>
         
+        
+        <category>travel</category>
         
       </item>
     
