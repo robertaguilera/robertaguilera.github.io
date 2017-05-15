@@ -68,6 +68,7 @@
   background-position: center 55%;
   background-attachment: fixed; }
 
+
 .full.sketch {
   min-height: 60%;
   background-image: url(../images/Sketch.jpg);
@@ -75,12 +76,32 @@
   background-position: center 55%;
   background-attachment: fixed; }
 
+  .full.gauge {
+    background-image: url(../images/settingfinalred.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed; }
+
+  .full.smif {
+    background-image: url(../images/en3-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 55%;
+    background-attachment: fixed; }
+
+    .full.ring {
+      background-image: url(../images/ringenv1.jpg);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-attachment: fixed; }
+
   .full.graphic {
     min-height: 60%;
     background-image: url(../images/graphic.jpg);
     background-repeat: no-repeat;
     background-position: center 55%;
     background-attachment: fixed; }
+
+
 
 .full.lamp {
   min-height: 60%;
