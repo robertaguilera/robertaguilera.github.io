@@ -48,7 +48,7 @@
   color: #fff; }
 
 .full.brown {
-  background: #ffb72c; }
+  background: #6fd098; }
 
 .full.light-grey {
   background: #f6f6f6; }
@@ -1336,8 +1336,8 @@ form.update-form input.button:hover {
 
 .modBarGraph .bars p.highlighted {
   width: 0;
-  background: #AB8860;
-  height: 6px;
+  background: #6fd098;
+  height: 10px;
   margin-bottom: 30px; }
 
 /* Process */
