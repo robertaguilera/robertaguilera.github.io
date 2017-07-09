@@ -25,22 +25,17 @@ slides:
   image: images/smif4.jpg
 
 
-works_left:
-- title: MoodRing
-  link_to: project3.html
-  image: images/moodring2.jpg
-  categories: Music suggestion device
-- title: Top Gauge
-  link_to: project1.html
-  image: images/top6.png
-  categories: Tire pressure tool
+services:
+  - title: Avatar
+    desc: I decided to take a swing at creating a little avatar for myself and here's how it turned out.
+    image: images/self.png
+    image_position: left
+  - title: Soul For Sale
+    desc: There's a soul for sale. Not too much going on in that empty attic either. Just a fun weekend piece I did.
+    image: images/home.png
+    image_position: right
 
 
-works_right:
-- title: SMIF
-  link_to: project2.html
-  image: images/smif2.jpg
-  categories: Smart food management
 
 
 milestones:
@@ -131,49 +126,62 @@ clients:
     </div>
   </div>
 </div>
+<div class="two spacing"></div>
 <div class="full no-padding">
   <div class="four spacing"></div>
   <div class="spacing"></div>
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h2>Work</h2>
+        <h2>Recent Work</h2>
         <!-- <p>You will love we have done</p> -->
       </div>
     </div>
   </div>
+
+<div class="two spacing"></div>
+<div class="two spacing"></div>
+{% for service in page.services %}
+<div class="full no-padding">
   <div class="row">
-    <div class="large-6 columns">
-      <div class="gallery-left-section">
-        {% for work in page.works_left %}
-          <div class="work-wrapper">
-            <a href="{{work.link_to}}" class="work">
-              <img src="{{site.url}}/{{work.image}}" alt="">
-              <div class="info">
-                <h3>{{work.title}}</h3>
-                <p>{{work.categories}}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
+    {% if service.image_position == 'left' %}
+      <div class="medium-6 columns">
+        <img src="{{site.url}}/{{service.image}}" alt="">
       </div>
-    </div>
-    <div class="large-6 columns">
-      <div class="gallery-right-section">
-        {% for work in page.works_right %}
-          <div class="work-wrapper">
-            <a href="{{work.link_to}}" class="work">
-              <img src="{{site.url}}/{{work.image}}" alt="">
-              <div class="info">
-                <h3>{{work.title}}</h3>
-                <p>{{work.categories}}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
+      <div class="medium-6 columns">
+        <div class="service-info right-text">
+          <h2>{{service.title}}</h2>
+          <p>{{service.desc}}</p>
+          <h4>Date</h4>
+          <p><span>July 2017</span></p>
+          <div class="two spacing"></div>
+          <a href="/graphic3.html" class="button boxed black">See Page</a>
+        </div>
       </div>
-    </div>
+    {% else %}
+      <div class="medium-6 columns">
+        <div class="service-info right-text">
+          <h2>{{service.title}}</h2>
+          <p>{{service.desc}}</p>
+          <h4>Date</h4>
+          <p><span>July 2017</span></p>
+          <div class="two spacing"></div>
+          <a href="/graphic2.html" class="button boxed black">See Page</a>
+        </div>
+      </div>
+      <div class="medium-6 columns">
+        <img src="{{site.url}}/{{service.image}}" alt="">
+      </div>
+    {% endif %}
   </div>
+  <div class="four spacing"></div>
+  <div class="two spacing"></div>
+</div>
+{% endfor %}
+
+
+<div class="two spacing"></div>
+</div>
 
 <!-- <div class="full">
   <div class="section-title">

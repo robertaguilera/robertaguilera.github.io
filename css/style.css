@@ -68,6 +68,12 @@
   background-position: center 55%;
   background-attachment: fixed; }
 
+.full.about {
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-attachment: fixed; }
+
 
 .full.sketch {
   min-height: 60%;
@@ -150,7 +156,7 @@
   top: -100px; }
 
 a {
-  color: #ab8860;
+  color: #6fd098;
   outline: none;
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -465,7 +471,7 @@ ul.socials {
     line-height: 30px;
     display: block;
     margin-bottom: 30px;
-    color: #AB8860; }
+    color: #6fd098; }
 
 /* Icon-text and service */
 .services {
