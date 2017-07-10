@@ -74,12 +74,9 @@ testimonials_right:
   avatar: images/@stock/author-4.png
 
 clients:
-- image: images/@stock/client-1.png
-- image: images/@stock/client-2.png
-- image: images/@stock/client-3.png
-- image: images/@stock/client-4.png
-- image: images/@stock/client-5.png
-- image: images/@stock/client-6.png
+- image: images/assoc.png
+
+
 ---
 
 <div class="full no-padding" style="height: 100vh;">
@@ -126,8 +123,23 @@ clients:
     </div>
   </div>
 </div>
+<div class="full white no-padding">
+  <div class="two spacing"></div>
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='centered-text'>
+        {% for client in page.clients %}
+          <div><img alt="" src="{{site.url}}/{{client.image}}"></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
 <div class="two spacing"></div>
-<div class="full no-padding">
+<div class="two spacing"></div>
+<div class="full light-grey no-padding">
+
   <div class="four spacing"></div>
   <div class="spacing"></div>
   <div class="section-title">
@@ -149,7 +161,7 @@ clients:
         <img src="{{site.url}}/{{service.image}}" alt="">
       </div>
       <div class="medium-6 columns">
-        <div class="service-info right-text">
+        <div class="service-info centered-text">
           <h2>{{service.title}}</h2>
           <p>{{service.desc}}</p>
           <h4>Date</h4>
@@ -160,7 +172,7 @@ clients:
       </div>
     {% else %}
       <div class="medium-6 columns">
-        <div class="service-info right-text">
+        <div class="service-info centered-text">
           <h2>{{service.title}}</h2>
           <p>{{service.desc}}</p>
           <h4>Date</h4>
@@ -176,6 +188,7 @@ clients:
   </div>
   <div class="four spacing"></div>
   <div class="two spacing"></div>
+</div>
 </div>
 {% endfor %}
 
