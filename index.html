@@ -2,13 +2,6 @@
 layout: default
 section_id: home
 slides:
-- title: Inspiration
-  text: Pulling from the <span>Past</span>
-  <!-- button:
-    text: Case study
-    url: http://themeforest.net/user/honryou/portfolio?ref=honryou -->
-  bg_color: "#ffd375"
-  image: images/Radio1.jpg
 - title: Design
   text: Down to the <span>Detail</span>
   <!-- button:
@@ -16,6 +9,13 @@ slides:
     url: http://themeforest.net/user/honryou/portfolio?ref=honryou -->
   bg_color: "#ff5d5d"
   image: images/Cord.jpg
+- title: Casabella®
+  text: Hit <span>Every</span> Angle
+  <!-- button:
+    text: Case study
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou -->
+  bg_color: "#6fd098"
+  image: images/portfix2.jpg
 - title: SMIF
   text: Manage Your Food <span>Easily</span>
   button:
@@ -23,6 +23,14 @@ slides:
     url: http://themeforest.net/user/honryou/portfolio?ref=honryou
   bg_color: "#4fc3ee"
   image: images/smif4.jpg
+- title: Inspiration
+  text: Pulling from the <span>Past</span>
+  <!-- button:
+    text: Case study
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou -->
+  bg_color: "#ffd375"
+  image: images/Radio1.jpg
+
 
 
 services:
@@ -170,7 +178,15 @@ clients:
           <a href="/graphic5.html" class="button boxed black">See Page</a>
         </div>
       </div>
+
+
+
+
+
     {% else %}
+    <div class="two spacing"></div>
+    <div class="two spacing"></div>
+    <div class="two spacing"></div>
       <div class="medium-6 columns">
         <div class="service-info centered-text">
           <h2>{{service.title}}</h2>
@@ -185,16 +201,30 @@ clients:
         <img src="{{site.url}}/{{service.image}}" alt="">
       </div>
     {% endif %}
-  </div>
+
   <div class="four spacing"></div>
   <div class="two spacing"></div>
 </div>
 </div>
+
+
+
+
+
+
 {% endfor %}
 
 
 <div class="two spacing"></div>
+<div class="two spacing"></div>
+<div class="two spacing"></div>
 </div>
+</div>
+</div>
+
+
+
+
 
 <!-- <div class="full">
   <div class="section-title">
@@ -249,8 +279,7 @@ clients:
       </div>
     </div>
   </div> -->
-  <div class="two spacing"></div>
-</div>
+
 <!-- <div class="full centered-text">
   <div class="section-title">
     <div class="row">

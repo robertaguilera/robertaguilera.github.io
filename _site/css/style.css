@@ -48,7 +48,7 @@
   color: #fff; }
 
 .full.brown {
-  background: #6fd098; }
+  background: #cbcbcb; }
 
 .full.light-grey {
   background: #f6f6f6; }
@@ -156,7 +156,7 @@
   top: -100px; }
 
 a {
-  color: #6fd098;
+  color: #cbcbcb;
   outline: none;
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -471,7 +471,7 @@ ul.socials {
     line-height: 30px;
     display: block;
     margin-bottom: 30px;
-    color: #6fd098; }
+    color: #cbcbcb; }
 
 /* Icon-text and service */
 .services {
@@ -1342,7 +1342,7 @@ form.update-form input.button:hover {
 
 .modBarGraph .bars p.highlighted {
   width: 0;
-  background: #6fd098;
+  background: #cbcbcb;
   height: 10px;
   margin-bottom: 30px; }
 
