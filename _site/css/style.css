@@ -100,6 +100,12 @@
       background-position: top;
       background-attachment: fixed; }
 
+      .full.pivot {
+        background-image: url(../images/under.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: fixed; }
+
   .full.graphic {
     min-height: 60%;
     background-image: url(../images/graphic.jpg);
