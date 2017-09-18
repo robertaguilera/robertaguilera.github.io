@@ -88,6 +88,12 @@
     background-position: top;
     background-attachment: fixed; }
 
+    .full.watkins {
+      background-image: url(../images/watkins4.jpg);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-attachment: fixed; }
+
   .full.smif {
     background-image: url(../images/en3-2.jpg);
     background-repeat: no-repeat;
@@ -956,7 +962,7 @@ nav.wrapper {
   background: #E4A48B; }
 
 .slides-navigation a {
-  color: #ab8860;
+  color: #cbcbcb;
   font-size: 36px;
   padding: 20px;
   -webkit-transform: translateX(0);
