@@ -25,6 +25,26 @@
 
 --------------*/
 /* base */
+.box{
+  display: block;
+  float: left;
+	width:25%;
+	height:15px;
+}
+
+.red{
+	background:#e9686e;
+}
+.green{
+	background:#87bf61;
+}
+.blue{
+	background:#56b5e5;
+}
+.yellow{
+	background:#ffc95d;
+}
+
 .spacing {
   height: 20px; }
 
@@ -41,14 +61,20 @@
   padding: 100px 0;
   background-size: cover;
   background-position: 50% 50%;
-  position: relative;
+  z-index: -1; position:relative;
   /* for work section and member section*/ }
+
+  .fullindex {
+    padding: 100px 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    /* for work section and member section*/ }
 
   .half {
     padding: 55px 0;
     background-size: cover;
     background-position: 50% 50%;
-    position: relative;
+    z-index: -1; position:relative;
     /* for work section and member section*/ }
 
 .full.light {
@@ -59,6 +85,9 @@
 
 .full.light-grey {
   background: #f6f6f6; }
+
+  .fullindex.light-grey {
+    background: #f6f6f6; }
 
   .half.light-grey {
     background: #f6f6f6; }
