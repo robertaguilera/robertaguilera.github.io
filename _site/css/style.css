@@ -44,6 +44,13 @@
   position: relative;
   /* for work section and member section*/ }
 
+  .half {
+    padding: 55px 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    /* for work section and member section*/ }
+
 .full.light {
   color: #fff; }
 
@@ -52,6 +59,9 @@
 
 .full.light-grey {
   background: #f6f6f6; }
+
+  .half.light-grey {
+    background: #f6f6f6; }
 
 .full.light-cyan {
   background: #dae9ec; }
@@ -233,7 +243,9 @@ hr {
 body {
   overflow-x: hidden;
   font-size: 18px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: "Poppins";
+ }
 
 .rotate {
   -webkit-animation: rotate 10s ease-in-out infinite;
@@ -372,7 +384,7 @@ body {
   .title-area h1 a {
     color: #333;
     font-size: 18px;
-    font-family: "josefin sans";
+    font-family: "Poppins";
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 10px; }
@@ -406,14 +418,14 @@ body {
     max-width: 100%; }
 
 .top-bar-section ul li > a {
-  font-family: "josefin sans";
+  font-family: "Poppins";
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
-  font-family: "josefin sans";
+  font-family: "Poppins";
   text-transform: capitalize; }
 
 /* member */
@@ -819,7 +831,7 @@ nav.wrapper {
   .slide-info h1 {
     text-transform: uppercase;
     line-height: 1.2em;
-    font-family: "Chivo";
+    font-family: "Poppins";
     font-size: 66px;
     letter-spacing: 4px;
     opacity: 0;
@@ -1348,7 +1360,7 @@ form.update-form input.button:hover {
 .modBarGraph .bars h4 {
   font-weight: normal;
   text-transform: capitalize;
-  font-family: "josefin sans";
+  font-family: "Poppins";
   margin-bottom: 10px;
   letter-spacing: 1px; }
 
