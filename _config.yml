@@ -21,7 +21,7 @@ github_username:  jekyll
 markdown: kramdown
 
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-compose
 
