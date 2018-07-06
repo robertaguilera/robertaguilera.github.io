@@ -1,0 +1,350 @@
+---
+layout: default
+section_id: pages
+slides:
+- layout: default
+  title: I design things
+  tagline: Illustrations | Graphics | Products
+
+  background: images/watkins2.jpg
+- layout: default
+  title: This is my passion
+  <!-- tagline: Illustrations | Graphics | Products -->
+
+  background: images/Radio3.jpg
+
+members:
+- name: Tom Hanson
+  position: Project manager
+  avatar: images/@stock/member-1.jpg
+  avatar_hover: images/@stock/member-1-c.jpg
+  socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com
+- name: Kate Holms
+  position: Project manager
+  avatar: images/@stock/member-2.jpg
+  avatar_hover: images/@stock/member-2-c.jpg
+  socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com
+- name: Munk Taylor
+  position: Web designer
+  avatar: images/@stock/member-3.jpg
+  avatar_hover: images/@stock/member-3-c.jpg
+  socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com
+- name: Zam White
+  position: Developer
+  avatar: images/@stock/member-5.jpg
+  avatar_hover: images/@stock/member-5-c.jpg
+  socials:
+  - name: twitter
+    url: http://twitter.com
+  - name: facebook
+    url: http://facebook.com
+  - name: linkedin
+    url: http://linkedin.com
+  - name: dribbble
+    url: http://dribbble.com
+
+skills_left:
+- title: Adobe Photoshop
+  percent: 45
+- title: Adobe Illustrator
+  percent: 70
+- title: Adobe InDesign
+  percent: 40
+skills_right:
+- title: Solidworks
+  percent: 55
+- title: AutoDesk Fusion 360
+  percent: 20
+- title: Keyshot
+  percent: 25
+
+testimonials_left:
+- author: David Lame - CEO of Wollen store
+  content: “Obcaecati voluptate ullam pariatur reiciendis optio harum
+    quae aut, eveniet explicabo. Commodi pariatur ut provident.”
+  avatar: images/@stock/author-1.png
+- author: Amy Swan - CEO of Wollen store
+  content: “Obcaecati voluptate ullam pariatur reiciendis optio harum
+    quae aut, eveniet explicabo. ”
+  avatar: images/@stock/author-3.png
+testimonials_right:
+- author: Sherley Hewai - CEO of Wollen store
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit. Explicabo eveniet asperiores ipsum saepe ab, aliquid veritatis incidunt
+    laudantium modi accusamus quidem eum magni.
+  avatar: images/@stock/author-2.png
+- author: Lucas Toope - CEO of Wollen store
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing
+    elit. Consectetur rem doloribus veniam alias commodi, dolorem, natus autem neque.
+    Quisquam labore.
+  avatar: images/@stock/author-4.png
+
+clients:
+- image: images/assoc.png
+---
+<div class="full no-padding">
+  <div id="slides" class="fullscreen">
+    <div class="slides-container">
+      {% for slide in page.slides %}
+        <div class="slide">
+          <div class="slide-info">
+            <div class="row">
+              <div class="large-10 large-centered columns">
+                {% if slide.layout == 'default' %}
+                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image}});"></div>
+                  <div class="two spacing"></div>
+                  <h1>{{slide.title}}</h1>
+                  <p>{{slide.tagline}}</p>
+                {% else %}
+                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image_top}});"></div>
+                  <div class="image-wrapper arrows" style="background-image: url({{site.url}}/{{slide.image_bottom}});"></div>
+                  <div class="three spacing"></div>
+                  <h1>{{slide.title}}</h1>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          <img src="{{site.url}}/{{slide.background}}" alt="">
+        </div>
+      {% endfor %}
+    </div>
+    <!-- <nav class="slides-navigation">
+      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
+      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
+    </nav> -->
+  </div>
+</div>
+
+<div class="full light-grey left-text">
+  <div class="two spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">About</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+
+        <p class="small-text">
+          Hi I'm Robert. I love art and am currently pursuing a career in Industrial Design.<br/><br/>
+Since most people don't know what Industrial Design is or have never heard of it before, I'll go ahead
+and give my definition. When I tell most people about what I do, I usually get a blank stare or a
+confident, but completely inaccurate, understanding of what ID is. The truth is, it's a very broad field.
+But in my case, Industrial Design is essentially Product Design. It's about designing a better user
+ experience through adjusting ergonomics or simplfying an interface from five buttons to two. The
+  challenge is improving the usability of a product while keeping it visually beautiful and manufacture friendly.
+   It's the perfect marriage between art and engineering — without the math.
+  <br/><br/>I grew up in a suburb of Rochester, NY called Webster with family ties to New York City and beyond. I pull most of my inspiration from the world around me. Cultural exposures have shaped my style which is constantly evolving.<br/><br/>
+
+Growing up I have fallen in love with the aesthetics of  <a href="http://gearpatrol.com/2015/05/14/vintage-hi-fi-sound-systems/" target="blank">vintage electronics</a>, <a href="http://www.designyourway.net/blog/inspiration/52-great-examples-of-urban-photography/" target="blank">urban infrastructure</a>, <a href="http://www.speerstra.net/en/about-graffiti-and-street-art" target="blank">graffiti art</a>, <a href="http://www.bustle.com/articles/95209-16-super-90s-will-smith-outfits-that-prove-the-fresh-prince-of-bel-air-swag-isnt-exactly" target="blank">90s culture</a> and more <a href="https://www.fastcodesign.com/3049908/innovation-by-design/the-2015-innovation-by-design-awards-winners-product-design" target="blank">contemporary designs</a>. The tangible boxy designs of the past have met today's sleek modern
+feel to form my artistic style. I love creating and working through ideas to develop an end result that is original and genuine. Some inspirational artists and designers to me are: Justin Bua, Shepard Fairey, Banksy, and Dieter Rams to name a short list.<br/><br/>
+
+Although I'm an Industrial Designer I still love to dabble in the Adobe suite from time to time, just to let my
+creativity loose. While I'm not doing art, I love being by the water and enjoying nature. Being outside or listening to music is always an escape for me. I'm a huge music fan and am always trying to find great things to listen to
+(most notably through my collection of old General Electric radios). However, if I'm not listening to music or don't make it outside, I'll usually just be playing basketball or hanging out with my dog.<br/><br/>
+
+I hope you enjoy my work. Thank you paying a visit.
+<br/><br/>
+P.S. Open my portfolio below to get a better understanding of my design process.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <br/><br/><br/>
+
+    <div class="full white no-padding">
+
+
+      <div class='row'>
+        <div class='large-12 columns'>
+          <div class='centered-text'>
+            {% for client in page.clients %}
+              <div><img alt="" src="{{site.url}}/{{client.image}}"></div>
+            {% endfor %}
+            <div class="two spacing"></div>
+            <div class="two spacing"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- </div>
+  <div class="two spacing"></div>
+</div>
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>The team</h2>
+        <p>We are happy to work together</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="large-3 columns">
+        <div class="member">
+          <img src="{{site.url}}/{{member.avatar}}" alt="">
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <div class="member-info">
+            <h4>{{member.name}}</h4>
+            <p class="position">{{member.position}}</p>
+            <ul class="socials">
+              {% for social in member.socials %}
+                <li><a href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %} -->
+
+<!-- <div class="full light-grey">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Proficiencies</h2>
+        <p>We work to improve our skills</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills_left %}
+            <li>
+              <h4>{{skill.title}} <strong>{{skill.percent}}%</strong></h4>
+              <p class="highlighted" data-percent="{{skill.percent}}"></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="medium-6 columns">
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          <ul class='bars'>
+            {% for skill in page.skills_right %}
+              <li>
+                <h4>{{skill.title}} <strong>{{skill.percent}}%</strong></h4>
+                <p class="highlighted" data-percent="{{skill.percent}}"></p>
+              </li>
+            {% endfor %}
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="full light-grey">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-4 columns">
+      <div class="contact-details">
+        <i class='icon-basic-mail'></i>
+        <h3>Contact</h3>
+        <p>rda5301(at)rit.edu<br/>(585) 217.3637</p>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="contact-details">
+        <i class='icon-basic-book'></i>
+        <a href="/misc/Robert Aguilera Resume.pdf" target="_blank" ><h3>Resume</h3></a>
+        <!-- <h3>Resume</h3>
+        <p>+86 (03) 9810 4612</p> -->
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="contact-details">
+        <i class='icon-basic-laptop'></i>
+        <a href="/misc/Robert Aguilera Portfolio.pdf" target="_blank" ><h3>Portfolio</h3></a>
+        <!-- <h3>Portfolio</h3> -->
+        <!-- <p>info@tato-team.com</p> -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- <div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Testimonials</h2>
+        <p>We are happy to work with our clients and let thme happy</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_left %}
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="auhor">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <p class="author">{{testimonial.author}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_right %}
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="auhor">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <p class="author">{{testimonial.author}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="full light-grey no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='clients'>
+        {% for client in page.clients %}
+          <div><a href="#"><img alt="" src="{{site.url}}/{{client.image}}"></a></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div> -->

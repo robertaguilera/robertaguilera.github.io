@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Aguilera</title>
+    <description>Check out the art and design of Robert Aguilera, a casual creator based out of New York.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Jul 2018 18:41:49 -0400</pubDate>
+    <lastBuildDate>Mon, 02 Jul 2018 18:41:49 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>new way, new move</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Apr 2016 18:47:03 -0400</pubDate>
+        <link>http://localhost:4000/travel/2016/04/05/new-way-new-move.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/05/new-way-new-move.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+  </channel>
+</rss>
