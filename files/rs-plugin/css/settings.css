@@ -1411,17 +1411,17 @@ zoom: 1;
 ***********************************************/
 
 /* CUSTOM BULLETS */
-.tp-bullets.simplebullets.round .bullet			{	
+.tp-bullets.simplebullets.round .bullet			{
 	background: #ffffff !important;
-	cursor:pointer; 
-	position:relative;	
-	background: #ffffff; 
-	width:6px;	height:6px; display:block;   
-	float:left; 
+	cursor:pointer;
+	position:relative;
+	background: #ffffff;
+	width:6px;	height:6px; display:block;
+	float:left;
 	margin: 0 5px;
 	border-radius: 12px;
-	-moz-border-radius:12px; 
-	-khtml-border-radius:12px; 
+	-moz-border-radius:12px;
+	-khtml-border-radius:12px;
 	-webkit-border-radius:12px;
 	border: 1px solid transparent;
 	top: 2px;
@@ -1432,19 +1432,19 @@ zoom: 1;
 	border: 1px solid #ffffff;
 	top: 0;
 	}
-	
-	
-	
+
+
+
 /* CUSTOM ARROWS */
-.tp-leftarrow.default, .tp-rightarrow.default {	
+.tp-leftarrow.default, .tp-rightarrow.default {
 	z-index:100;
-	cursor:pointer; 
-	position:relative;	
-	width:40px;	
+	cursor:pointer;
+	position:relative;
+	width:40px;
 	height:40px;
 	background: transparent url(../../images/sprites.png) no-repeat;
 	}
-	
+
 .tp-rightarrow.default { background-position: 0px 0px;	}
 .tp-leftarrow.default { background-position: -40px 0px;	}
 
@@ -1452,21 +1452,21 @@ zoom: 1;
 
 /* Custom Captions*/
 .srcaption-bigwhite, .srcaption-mediumwhite, .srcaption-smallwhite, .srcaption-miniwhite {
-	font-family: 'Raleway'; 
+	font-family: 'Raleway';
 	font-weight: 400;
 	color: #ffffff;
 	font-size: 100px;
 	line-height: 120px;
 	}
-	
+
 .srcaption-mediumwhite { font-size: 50px; line-height: 60px; }
 .srcaption-smallwhite { font-size: 32px; line-height: 42px; }
 .srcaption-miniwhite { font-size: 18px; line-height: 26px; }
-	
+
 .tp-caption strong, tp-caption b  { font-weight: 900; }
 .srcaption-miniwhite strong { font-weight: 600; }
 
-@media only screen and (max-width: 760px) { 
+@media only screen and (max-width: 760px) {
 .tp-caption .sr-buttonicon {
 	font-size:18px !important;
 	border: none;

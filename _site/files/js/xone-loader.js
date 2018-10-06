@@ -55,21 +55,21 @@ jQuery(window).load(function($) {
 					var i = 0; // Bug Fix Safari when scrolling + callback
 					jQuery('html,body').animate({ scrollTop: jQuery( ".ajax-section" ).offset().top-scrolltop}, 700, 'easeOutQuart', function(){
 						if (i == 0) { // Bug Fix Safari when scrolling + callback
-						jQuery( ".ajax-section #ajax-loader" ).fadeIn(500).delay(1000).fadeOut(500,function() {
+						jQuery( ".ajax-section #ajax-loader" ).fadeIn(150).delay(250).fadeOut(150,function() {
 							if(jQuery().fitVids) { jQuery(".ajax-section").fitVids(); }
 							portfolioPreviewHide();
-							jQuery( ".ajax-content" ).slideDown(700, 'easeOutQuart', function() { flexInit(".ajax-section"); setTimeout(portfolioShow, 400); });
+							jQuery( ".ajax-content" ).slideDown(400, 'easeOutQuart', function() { flexInit(".ajax-section"); setTimeout(portfolioShow, 50); });
 						});
 						} // END i ==0
 						i++;
 					});
 				} else {
 					jQuery( ".ajax-section #ajax-loader" ).css({ top: '70px'});
-					jQuery( ".ajax-section #ajax-loader" ).fadeIn(500).delay(1000).fadeOut(500,function() {
+					jQuery( ".ajax-section #ajax-loader" ).fadeIn(150).delay(250).fadeOut(150,function() {
 						if(jQuery().fitVids) { jQuery(".ajax-section").fitVids(); }
 						portfolioPreviewHide();
-						jQuery( ".ajax-content" ).fadeIn(400, 'easeOutQuart', function() { flexInit(".ajax-section"); setTimeout(portfolioShow, 400);
-							jQuery( ".ajax-section" ).animate({ 'min-height' : '0'}, 700, 'easeOutQuart');
+						jQuery( ".ajax-content" ).fadeIn(150, 'easeOutQuart', function() { flexInit(".ajax-section"); setTimeout(portfolioShow, 50);
+							jQuery( ".ajax-section" ).animate({ 'min-height' : '0'}, 150, 'easeOutQuart');
 						});
 					});
 				}
@@ -89,10 +89,10 @@ jQuery(window).load(function($) {
 		var url = jQuery(this).attr('href');
 		var scrolltop = jQuery('header').height() - 1;
 
-		jQuery( '.close-project' ).fadeOut(500);
-		jQuery( ".ajax-content" ).animate({ opacity: 0}, 500, function() {
-			jQuery( this ).slideUp(700, 'easeOutQuart', function() {  jQuery( ".ajax-content" ).empty(); });
-			jQuery( ".ajax-section" ).slideUp(700);
+		jQuery( '.close-project' ).fadeOut(300);
+		jQuery( ".ajax-content" ).animate({ opacity: 0}, 200, function() {
+			jQuery( this ).slideUp(300, 'easeOutQuart', function() {  jQuery( ".ajax-content" ).empty(); });
+			jQuery( ".ajax-section" ).slideUp(300);
 			jQuery('html,body').animate({ scrollTop: jQuery( "#portfolio" ).offset().top-scrolltop}, 700, 'easeOutQuart');
 		});
 
@@ -123,19 +123,19 @@ function portfolioPreviewHide(){
 function portfolioShow(){
 
 	// Show Title
-	jQuery( "#portfolio-single .project-title" ).animate({ 'top': '0', opacity: 1 }, 500, 'easeOutQuart');
+	jQuery( "#portfolio-single .project-title" ).animate({ 'top': '0', opacity: 1 }, 400, 'easeOutQuart');
 
 	// Show Social Share
-	jQuery( ".social-share li" ).delay(400).each(function(index, element) {
+	jQuery( ".social-share li" ).delay(200).each(function(index, element) {
 		var delay = index*80;
-		jQuery( this ).delay(delay).animate({ 'top': '0', opacity: 1 }, 500, 'easeOutBack');
+		jQuery( this ).delay(delay).animate({ 'top': '0', opacity: 1 }, 400, 'easeOutBack');
 	});
 
 	// Show Slider
-	jQuery( ".entry-media" ).delay(600).animate({ 'top': '0', opacity: 1 }, 500, 'easeOutQuart');
+	jQuery( ".entry-media" ).delay(200).animate({ 'top': '0', opacity: 1 }, 400, 'easeOutQuart');
 
 	// Show Content
-	jQuery( ".entry-content" ).delay(1000).animate({ 'top': '0', opacity: 1 }, 500, 'easeOutQuart');
+	jQuery( ".entry-content" ).delay(200).animate({ 'top': '0', opacity: 1 }, 400, 'easeOutQuart');
 
 	// Show + reposition Next/Prev
 	var projectwidth = parseInt(jQuery(".project-title").width()/2);
@@ -146,10 +146,10 @@ function portfolioShow(){
 		var prevposition = -10;
 		var nextposition = 280;
 	}
-	jQuery('.project-title .single-pagination .next').delay(200).animate({ left: nextposition+'px', opacity: 1}, 600, 'easeOutBack');
-	jQuery('.project-title .single-pagination .prev').delay(200).animate({ left: prevposition+'px', opacity: 1}, 600, 'easeOutBack');
+	jQuery('.project-title .single-pagination .next').delay(15).animate({ left: nextposition+'px', opacity: 1}, 100, 'easeOutBack');
+	jQuery('.project-title .single-pagination .prev').delay(15).animate({ left: prevposition+'px', opacity: 1}, 100, 'easeOutBack');
 
 	// Show Close Icon
-	jQuery( ".close-project" ).delay(1200).fadeIn(500);
+	jQuery( ".close-project" ).delay(75).fadeIn(75);
 
 }

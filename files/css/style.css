@@ -120,8 +120,8 @@ audio:not([controls]) { display: none; }
 html {
 	height: 100%;
 	font-size: 100%;
-	/*overflow-y: scroll; /* Force a scrollbar in non-IE */
-	/*overflow-x: hidden;*/
+	/* overflow-y: scroll; /* Force a scrollbar in non-IE */
+	/*overflow-x: hidden; */
 	-webkit-text-size-adjust: 100%; /* Prevent iOS text size adjust on orientation change without disabling user zoom */
 	-ms-text-size-adjust: 100%;
 	position: relative;
@@ -137,7 +137,7 @@ body {
 	position: relative;
 	background: #fafafa;
 	height: 100%;
-	}
+  }
 ::selection { background:#ffe49c; color:#262626; }
 ::-moz-selection { background:#ffe49c; color:#262626; }
 ::-webkit-selection { background:#ffe49c; color:#262626; }
